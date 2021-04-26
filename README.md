@@ -11,6 +11,8 @@ and create multiple copies of this data to make sure we have data duplicay
 And one database (lock_status) which has one table called traffic_control for implementing locking.
 
 traffic_control(db_name primary key varchar , status  int )
+
+
 here status represents whether the database is currently being accessed.
 db_name is name of different database with same data that we have created earlier.
 
