@@ -6,7 +6,7 @@ Database has the following tables :
 2) student_info(dob varchar, mobile_no varchar, name varchar , uid int primary key)
 3) student_info2(batch varchar, college varchar, department varchar , uid int primary key, year vachar)
 
-and create multiple copies of this data to make sure we have data duplicay
+and create multiple copies of this data to make sure we have data duplicacy. We have also used an online (from freesqlhosting) database with same data.
 
 And one database (lock_status) which has one table called traffic_control for implementing locking.
 
